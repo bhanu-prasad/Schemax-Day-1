@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Day-1| Form</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main"> 
+        <div class="form">
+            <form class="container" action="">
+                <span class="title">Details Form</span>
+                <label for="name" class="nmtitle">Your Name*</label>
+                <div class="name">
+                    <div id="fname" >
+                        <input type="text" name="name" required class="fname input1" placeholder="First name">
+                    </div>
+                    <div id="lname">
+                        <input type="text" name="name" required class="fname input1" placeholder="Last name">
+                    </div>
+                </div>
+                <label for="dob" class="nmtitle">Date of Birth: </label>
+                <input type="date" class="input1">
+                <div class="gender">
+                    <label class="nmtitle gen">Gender:</label>
+                    <br>
+                    <br>
+                    <input type="radio" name="gender" id="male" value="male"><label for="male" required> Male</label>
+                    <input type="radio" name="gender" id="female" value="female"><label for="male" required> Female</label>
+                </div>
+                <label for="email" class="nmtitle">Email Address*</label>
+                <input type="email" name="email" placeholder="Enter Email" class="input1" required title="Enter a valid email-id">
+                <label for="num" class="nmtitle">Contact Number*</label>
+                <input type="tel" class="input1" pattern="[6-9]{1}[0-9]{9}" required title="Enter a valid mobile number" placeholder="10-digit number">
+                <label for="college" class="nmtitle">College Name</label>
+                <input type="text" name="college"  class="input1" placeholder="College Name">
+                <label for="college" class="nmtitle">Branch</label>
+                <input type="text" name="branch" class="input1" placeholder="Ex: Computer Science">
+                <label for="college" class="nmtitle">Year of Study</label>
+                <input type="text" name="year"  class="input1" placeholder="2nd yr">
+                <div class="btn">
+                    <button onclick="" class="submitbtn"><span>Submit <i class="fa fa-arrow-right"></i></span></button>
+                </div>
+            </form>
+        </div>
+    </div>    
+
+    <div class="footer">
+        <p>©Bhanu Prasad| email: bhanu.prasad1908@gmail.com</p>
+    </div>
+</body>
+</html>
