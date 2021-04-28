@@ -15,7 +15,7 @@
 
 .form{
     display: block;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.525);
     box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
     width: 600px;
     padding: 55px 95px 68px;
